@@ -1,0 +1,7 @@
+- Blob: abreviação para “binary large object” onde o git cria esse objeto toda vez que adicionamos algum arquivo, sendo que dentro desse objeto vai ter alguns metadados relacionados a esse arquivo adicionado, sendo que esse blob vai ter o seu hash.
+
+- Trees: as árvores são objetos que apontar para blobs, ou seja, vai ter o caminho para aquele determinado arquivo e tendo também metadados relacionados, como por exemplo, quem tem permissão de arquivo. Árvores podem apontar para outras árvores também, sendo que a árvore também tem seu hash.
+
+- Commit: Ele vai juntar tudo, todo o conjunto de alteração, assim ele aponta para um ávore, aponta para os seus parentes, que no caso seria o commit anterior, para um autor e uma mensagem tambem, sendo que o commit também tem seu hash
+
+OBS: caso eu altere algo em um blob essa alteração gera um reação em cadeia, ou seja, se mudo um arquivo essa alteração reflete na árvore que vai refletir por ultimo no commit. Assim cria um sistema seguro, onde qualquer pequena alteração fica muito simples de se achar na linha de tempo de alterações.

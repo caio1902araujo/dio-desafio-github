@@ -1,0 +1,5 @@
+O que é?
+Sha significa Secure Hash Algorithmn, é usado para criptografar dados ou arquivos, ou seja, ele pega algum arquivo ou dado e transforma em uma sequencia de 40 caracteres sendo único e usado na maioria das vezes para indentificação
+
+Como o git usa essa tecnologia?
+Eles usam o sha para fazer a identificação das alterações nos arquivos distintos, assim temos uma forma segura e fácil de identificar cada mudança. Sendo caso você modifique seu arquivo para o estado anterior, ele vai gerar o mesmo hash, ele só vai gerar um hash diferente caso tenha uma modificação nova. Além de usar para arquivos o git usa o sha para objetos internos do git mesmo como o blobs, commit, trees.

@@ -1,0 +1,10 @@
+Temos quatros estados que um arquivo/objeto pode ter, seria:
+- untracked: arquivo novo, que o git nunca viu
+- unmodified: o git ja conhece so que não foi alterado ainda
+- modified: arquivo que foi modificado
+- stage: área onde os arquivos que estão prontos para serem commitado ficam, arquivos que eu já modifiquei totalmente
+
+As áreas que os arquivos transitam são:
+- Working directory
+- Staging
+- Local repository

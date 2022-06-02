@@ -1,0 +1,5 @@
+O que é chave SSH?
+É uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas através de duas chaves, sendo uma pública e uma privada. Sendo que a chave pública vai ficar no github para que ele reconheça a assinatura da nossa máquina toda vez que enviarmos código para o repositório online.
+
+Tokens de acesso pessoal
+Nesse método para estabelecer um conexão segura com o github, vamos ter que gerear um token no github e toda comunicação que tiver com o repositório online vamos ter que colocar o username e na hora da senha vamos colocar o nosso token gerado.
